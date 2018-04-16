@@ -1,0 +1,59 @@
+{
+  "name": "boirplate-node-react-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "api": "cd api && nodemon server.js",
+    "test": "mocha --recursive --exit",
+    "test-watch": "mocha --recursive --watch-extensions js --watch -R min",
+    "flow": "flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rhuansantos/bilibios.git"
+  },
+  "author": "Rhuan Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rhuansantos/bilibios/issues"
+  },
+  "homepage": "https://github.com/Rhuansantos/bilibios#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.15.2",
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "compression": "^1.7.2",
+    "cookie-parser": "^1.4.3",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "flow": "^0.2.3",
+    "glob": "^7.1.1",
+    "helmet": "^3.12.0",
+    "mocha": "^5.0.5",
+    "mocha-eslint": "^4.1.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.4.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.37.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "^4.3.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-standard": "^1.6.6",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.69.0",
+    "gulp": "^3.9.1",
+    "rsync": "^0.6.1",
+    "rsyncwrapper": "^2.0.1",
+    "sequelize-cli": "^4.0.0"
+  }
+}
